@@ -1,0 +1,39 @@
+# business privacyss
+private
+database/
+webserver/
+# logs
+logs
+*.log
+# Flake8 reports
+report.txt
+flake8.txt
+# enviroments
+.env
+venv/
+bin/
+lib/
+service.bat
+.crt
+.key
+!dev.crt
+!dev.key
+# Packaging / compiled
+*.pyc
+__pycache__/
+*.py[cod]
+.DS_Store
+/dist
+build/
+node_modules/
+eggs/
+*.egg/
+*.egg-info/
+MANIFEST
+# Temporary/OS files
+*.*~
+# IDE files
+.settings
+.idea/
+.vscode/
+*.sw*
